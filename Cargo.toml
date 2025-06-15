@@ -9,7 +9,7 @@ path = "./src/bin/main.rs"
 
 [dependencies]
 esp-alloc = "0.7.0"
-esp-hal = { version = "0.23.1", features = ["esp32s3", "unstable"] }
+esp-hal = { version = "0.23.1", features = ["esp32", "unstable"] }
 
 [profile.dev]
 # Rust debug is too slow.
